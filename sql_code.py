@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 import pandas as pd
 
 
-conn = create_engine('mysql+mysqldb://risk_read:risk_readyh3a88#4c%ATVWSb@rm-uf6krpq2jmo9tc1g0ko.mysql.rds.aliyuncs.com:3306/qxy_base?charset=utf8')
+conn = create_engine('')
 
 sql_code='''
 SELECT
